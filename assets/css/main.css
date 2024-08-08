@@ -1,0 +1,105 @@
+:root{
+  --color-primary-50: 255 187 13;
+  --color-primary-100: 255 187 13;
+  --color-primary-200: 255 187 13;
+  --color-primary-300: 255 187 13;
+  --color-primary-400: 255 187 13;
+  --color-primary-500: 255 187 13;
+  --color-primary-600: 255 187 13;
+  --color-primary-700: 255 187 13;
+  --color-primary-800: 255 187 13;
+  --color-primary-900: 255 187 13;
+  --color-primary-950: 255 187 13;
+  --color-primary-DEFAULT: 255 187 13;
+}
+@font-face {
+  font-family: "LatoThin";
+  src: url("fonts/Lato-Thin.ttf") format("truetype");
+}
+@font-face {
+  font-family: "ThinItalic";
+  src: url("~/fonts/Lato-ThinItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "LatoRegular";
+  src: url("fonts/Lato-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "LatoLightItalic";
+  src: url("fonts/Lato-LightItalic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "LatoLight";
+  src: url("fonts/Lato-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "LatoItalic";
+  src: url("fonts/Lato-Italic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "LatoBoldItalic";
+  src: url("fonts/Lato-BoldItalic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "LatoBold";
+  src: url("fonts/Lato-Bold.ttf") format("truetype");
+}
+
+
+body {
+  font-family: 'LatoRegular', sans-serif;
+}
+
+
+ @property --bg-angle {
+   inherits: false;
+   initial-value: 0deg;
+   syntax: "<angle>";
+ }
+ 
+ @keyframes spin {
+   to {
+     --bg-angle: 360deg;
+   }
+ }
+ 
+ .border-gradient {
+   border: 0.01px solid transparent;
+ 
+   &:hover {
+    border: 4px solid transparent;
+    outline: none;
+    animation: spin 4s infinite linear paused;
+    background: linear-gradient(to bottom, #0f3090, #fee140) padding-box, conic-gradient(from var(--bg-angle), #0f3090, #fee140) border-box;
+    animation-play-state: running;
+   }
+ }
+ 
+
+
+ .router-link-active.router-link-exact-active{
+  color:rgb(255, 187, 13);
+ }
+
+ .i-heroicons-moon,.i-heroicons-sun {
+  width: 1.7em;
+  height: 1.7em;}
+
+  .bg-gradient-rectangle{
+    padding: 4px;
+    background-size: cover;
+  }
+
+.bg-gradient-rectangle:hover{
+  background:url('../images/ectangle.png') no-repeat;
+  padding: 4px;
+  background-size: cover;
+}
+
+.bg-gradient-rectangle-startProject{
+  background:url('../images/ectangle.png') no-repeat;
+  padding: 4px;
+  background-size: cover;
+}
