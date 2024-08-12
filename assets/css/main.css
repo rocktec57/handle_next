@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
 :root{
   --color-primary-50: 255 187 13;
   --color-primary-100: 255 187 13;
@@ -12,41 +14,6 @@
   --color-primary-950: 255 187 13;
   --color-primary-DEFAULT: 255 187 13;
 }
-@font-face {
-  font-family: "LatoThin";
-  src: url("fonts/Lato-Thin.ttf") format("truetype");
-}
-@font-face {
-  font-family: "ThinItalic";
-  src: url("~/fonts/Lato-ThinItalic.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "LatoRegular";
-  src: url("fonts/Lato-Regular.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "LatoLightItalic";
-  src: url("fonts/Lato-LightItalic.ttf") format("truetype");
-}
-@font-face {
-  font-family: "LatoLight";
-  src: url("fonts/Lato-Light.ttf") format("truetype");
-}
-@font-face {
-  font-family: "LatoItalic";
-  src: url("fonts/Lato-Italic.ttf") format("truetype");
-}
-@font-face {
-  font-family: "LatoBoldItalic";
-  src: url("fonts/Lato-BoldItalic.ttf") format("truetype");
-}
-@font-face {
-  font-family: "LatoBold";
-  src: url("fonts/Lato-Bold.ttf") format("truetype");
-}
-
 
 body {
   font-family: 'LatoRegular', sans-serif;
