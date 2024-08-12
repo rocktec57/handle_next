@@ -8,7 +8,7 @@ const htmlAttrs = computed(() => head.value.htmlAttrs!)
 
 
 <template>
-  <Html :lang="htmlAttrs.lang" :dir="htmlAttrs.dir" class="dark">
+  <Html :lang="htmlAttrs.lang" :dir="htmlAttrs.dir" class="light">
   <Body>
     <div class="bg-bodyWhite text-black_222 dark:bg-navyBlue dark:text-bodyWhite">
       <nuxt-layout>
