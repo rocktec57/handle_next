@@ -1,6 +1,6 @@
 <template>
     <section data-aos="zoom-out">
-        <h1 class="text-center text-black_222 dark:text-white text-2xl font-[LatoBoldItalic] mb-7">{{ $t("Our") }} <span
+        <h1 class="text-center text-black_222 dark:text-white text-2xl font-bold mb-7">{{ $t("Our") }} <span
                 class="text-yellow uppercase">{{ $t("Services") }}</span></h1>
         <div class="bg-blue dark:bg-navyBlue p-lg-20 relative overflow-hidden">
             <UContainer class="relative h-[38rem] lg:h-96 dark:border">

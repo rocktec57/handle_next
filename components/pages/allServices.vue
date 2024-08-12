@@ -4,7 +4,7 @@
             <IconsMaskHomeSec1 />
         </div>
 
-        <h1 class="text-center text-black_222 dark:text-white text-2xl font-[LatoBoldItalic] mb-20"  data-aos="fade-up">Our <span class="text-yellow uppercase">Services</span></h1>
+        <h1 class="text-center text-black_222 dark:text-white text-2xl font-bold mb-20"  data-aos="fade-up">Our <span class="text-yellow uppercase">Services</span></h1>
         <UContainer>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-16 gap-y-20 relative">
                 <div class="bg-gradient-rectangle rounded group" data-aos="fade-up">

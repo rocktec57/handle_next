@@ -19,7 +19,7 @@
                     <img src="@/assets/images/Desktop.png" class="bg-blue dark:bg-navy rounded-lg relative" />
                 </div>
                 <div class="md:pe-7 mt-3">
-                    <h1 class="text-black_222 dark:text-white font-[LatoBoldItalic] text-4xl">Graphic Design in <span
+                    <h1 class="text-black_222 dark:text-white font-bold text-4xl">Graphic Design in <span
                             class="text-yellow uppercase">Handle IT</span></h1>
                     <h3 class="text-black_222 dark:text-white font-bold text-2xl my-4">
                         Lorem Ipsum is simply dummy text of the survived not only five </h3>
@@ -38,7 +38,7 @@
 
     <section>
         <UContainer class="my-4">
-            <h1 class="text-center text-black_222 dark:text-white text-2xl font-[LatoBoldItalic] mb-7">Graphic Design <span
+            <h1 class="text-center text-black_222 dark:text-white text-2xl font-bold mb-7">Graphic Design <span
                     class="text-yellow uppercase">{{ $t("Projects") }}</span></h1>
             <div class="container grid grid-cols-1 lg:grid-cols-2 gap-8">
                 <div class="bg-gradient-rectangle rounded group">

@@ -2,7 +2,7 @@
   <section class="bg-bodyWhite dark:bg-navyBlue mt-10 mb-20">
     <UContainer>
       <div class="mb-20">
-        <h1 class="text-center text-black_222 dark:text-white font-[LatoBoldItalic] text-2xl">
+        <h1 class="text-center text-black_222 dark:text-white font-bold text-2xl">
           Our ideas <span class="text-yellow uppercase">outside of the box</span>
         </h1>
       </div>

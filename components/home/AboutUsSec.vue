@@ -4,7 +4,7 @@
         <IconsMaskAboutUs/>
     </div>
       <UContainer class="relative">
-        <h1 class="text-center text-black_222 dark:text-white text-2xl font-[LatoBoldItalic] mb-3">STATISTICS <span
+        <h1 class="text-center text-black_222 dark:text-white text-2xl font-bold mb-3">STATISTICS <span
             class="text-yellow uppercase">ABOUT US</span></h1>
         <h3 class="text-center text-black_222 dark:text-white text-lg mx-auto w-[90%] lg:w-2/5">Lorem Ipsum is simply
           dummy

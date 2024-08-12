@@ -1,6 +1,6 @@
 <template>
   <section class="relative py-20" data-aos="zoom-in-down">
-    <h1 class="text-center text-black_222 dark:text-white text-2xl font-[LatoBoldItalic] mb-3">Get your <span
+    <h1 class="text-center text-black_222 dark:text-white text-2xl font-bold mb-3">Get your <span
         class="text-yellow uppercase">free</span> consultation</h1>
     <h3 class="text-center text-black_222 dark:text-white text-lg mx-auto w-[90%] lg:w-2/5 mb-8">Lorem Ipsum is simply
       dummy text of the

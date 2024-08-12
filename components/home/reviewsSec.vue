@@ -1,7 +1,7 @@
 <template>
   <section data-aos="zoom-out-down">
     <UContainer>
-      <h1 class="text-center text-black_222 dark:text-white text-2xl font-[LatoBoldItalic] mb-3">Customers Reviews</h1>
+      <h1 class="text-center text-black_222 dark:text-white text-2xl font-bold mb-3">Customers Reviews</h1>
       <h3 class="text-center text-black_222 dark:text-white text-lg mx-auto w-[90%] lg:w-2/5">Don't take our word for
         it. See what
         customers are saying about us</h3>

@@ -37,7 +37,6 @@ export default {
   justify-content: center;
 }
 .not-found-text1 {
-  color: rgb(38, 38, 38);
   font-size: 252px;
   margin-top: -20px;
   font-weight: 900;

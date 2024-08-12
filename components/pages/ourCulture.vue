@@ -4,7 +4,7 @@
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
 
                 <div class="md:pe-7 mt-3" data-aos="fade-left">
-                    <h1 class="text-black_222 dark:text-white font-[LatoBoldItalic] text-3xl">Our <span
+                    <h1 class="text-black_222 dark:text-white font-bold text-3xl">Our <span
                             class="text-yellow uppercase">Culture</span></h1>
 
                     <p class="text-sm text-black_222 dark:text-white">

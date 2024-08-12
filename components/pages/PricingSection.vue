@@ -1,7 +1,7 @@
 <template>
     <UContainer>
         <div class="p-8 text-center">
-            <h1 class="text-center text-black_222 dark:text-white text-2xl font-[LatoBoldItalic] mb-3">Choose your <span
+            <h1 class="text-center text-black_222 dark:text-white text-2xl font-bold mb-3">Choose your <span
                     class="text-yellow uppercase">Plan</span></h1>
             <h3 class="text-center text-black_222 dark:text-white text-lg mx-auto w-[90%] lg:w-2/5 mb-8">No Contracts, no
                 surprise fee!</h3>

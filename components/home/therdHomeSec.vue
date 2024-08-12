@@ -9,7 +9,7 @@
           <img src="@/assets/images/Desktop.png" class="bg-blue dark:bg-navy rounded-lg w-fit relative" />
         </div>
         <div class="md:pe-7 mt-3"  data-aos="fade-left">
-          <h1 class="text-black_222 dark:text-white font-[LatoBoldItalic] text-3xl">Why <span
+          <h1 class="text-black_222 dark:text-white font text-3xl">Why <span
               class="text-yellow uppercase">us</span></h1>
           <h3 class="text-black_222 dark:text-white font-bold text-xl my-4">
             Lorem Ipsum is simply dummy text of the survived

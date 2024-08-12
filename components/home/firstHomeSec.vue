@@ -9,7 +9,7 @@
         <UContainer>
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 gap-x-56 items-center mt-4 relative">
                 <div class="px-2"  data-aos="fade-right">
-                    <h1 class="text-blue dark:text-white font-bold lg:font-extrabold text-2xl lg:text-4xl" >
+                    <h1 class="text-blue dark:text-white font-bold text-2xl lg:text-4xl" >
                         Lorem Ipsum is simply dummy text of the <span class="text-primary">printing</span> survived not only five
                         <!-- {{ slider.title }} -->
                     </h1>
