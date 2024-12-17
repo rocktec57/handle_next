@@ -252,9 +252,6 @@ import 'swiper/css/pagination';
 
 const modules = [Navigation, Pagination, Scrollbar, A11y];
 
-// const reviews = ref([]);
-// const { data, error } = await useFetch(api);
-// reviews.value = data.value.data.reviews;
 
 
 

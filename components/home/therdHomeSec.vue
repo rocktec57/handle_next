@@ -94,11 +94,6 @@
 </template>
 <script setup>
 
-// import { ref } from 'vue';
-// const why_us_services = ref([]);
-// const why_us = ref([]);
-// const { data, error } = await useFetch(api);
-// why_us_services.value = data.value.data.why_us_services;
-// why_us.value = data.value.data.why_us;
+
 
 </script>

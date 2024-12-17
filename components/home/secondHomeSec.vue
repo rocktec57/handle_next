@@ -53,8 +53,5 @@
 </template>
 
 <script setup>
-// import { ref } from 'vue';
-// const ideas = ref([]);
-// const { data, error } = await useFetch(api);
-// ideas.value = data.value.data.ideas;
+
 </script>

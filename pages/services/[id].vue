@@ -64,11 +64,6 @@
 
 
 <script setup>
-// import { ref } from 'vue';
 
-// const service = ref(null)
-// const { data, error } = await useFetch(() => `${api}/${useRoute().params.id}`)
-// service.value = data
-// console.log(data)
 
 </script>

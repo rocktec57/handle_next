@@ -1,5 +1,6 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
+
   modules: [
     '@nuxtjs/color-mode',
     '@nuxt/ui',
@@ -8,21 +9,28 @@ export default defineNuxtConfig({
     '@nuxt/content',
     "@nuxt/image"
   ],
+
   plugins: [
     { src: '~/plugins/aos.js', mode: 'client' }
   ],
+
   css: [ 'aos/dist/aos.css',"~/assets/css/main.css"],
+
   colorMode: {
     classSuffix: '',
   },
+
   tailwindcss: {
     configPath: 'tailwind.config.js'
   },
+
   build: {
     transpile: [],
     
   },
+
   components: true,
+
   i18n: {
     locales: [
       { code: "en", name: 'English', iso: "en", dir: "ltr", file: "en.json" },
@@ -35,6 +43,7 @@ export default defineNuxtConfig({
     detectBrowserLanguage: false,
     vueI18n: "./i18n.config.ts",
   },
+
   app: {
     head: {
       title: 'Handle It',
@@ -67,7 +76,5 @@ export default defineNuxtConfig({
         }
       ],
     },
-
-
-  }
+  },
 })

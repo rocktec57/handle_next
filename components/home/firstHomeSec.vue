@@ -42,7 +42,4 @@
 import { ref } from 'vue';
 const localePath = useLocalePath()
 
-// const slider = ref([]);  v-if="data" v-else
-// const { data, error } = await useFetch(api);
-// slider.value = data.value.data.slider;
 </script>

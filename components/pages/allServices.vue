@@ -127,8 +127,5 @@
 <script setup>
 const localePath = useLocalePath()
 
-// import { ref } from 'vue';
-// const services = ref([]);
-// const { data, error } = await useFetch(api);
-// services.value = data.value.data.services;
+
 </script>

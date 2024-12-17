@@ -26,8 +26,5 @@
     </section>
 </template>
 <script setup>
-// import { ref } from 'vue';
-// const projects = ref([]);
-// const { data, error } = await useFetch(api);
-// projects.value = data.value.data.projects;
+
 </script>

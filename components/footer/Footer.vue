@@ -143,21 +143,4 @@ import { ref } from 'vue';
 const color = useColorMode();
 const localePath = useLocalePath();
 
-const companyInfo = ref({});
-const error = ref(null);
-const loading = ref(true);
-
-try {
-  const { data, error } = await useFetch(api);
-
-  if (data.value && data.value.data) {
-    companyInfo.value = data.value.data;
-  } else {
-    throw new Error("Unexpected data format");
-  }
-} catch (err) {
-  error.value = err.message;
-} finally {
-  loading.value = false;
-}
 </script>
